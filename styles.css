@@ -1,0 +1,52 @@
+body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.logo{
+  width: 80px;
+  margin-right: 5rem;
+  border-radius: 50%;
+}
+
+nav{
+  margin: 2rem 8rem;
+}
+
+a{
+  margin-left: 7rem;
+  font-size: 1.5rem;
+  font-weight: 300;
+  text-decoration: none;
+  box-shadow: 1rem;
+  color: black;
+  font-family: Tahoma;
+}
+
+a:hover{
+  cursor: pointer;
+  color: burlywood;
+  text-decoration: underline;
+  transition: 0s;
+  text-decoration-color: brown;
+}
+
+.parent{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.right{
+  width: 100vw;
+  height: 100vh;
+  padding: 5rem 0;
+  clip-path: polygon(24% 0, 100% 0, 100% 100%, 0 100%);
+
+}
+
+.left{
+  padding: 7rem 10rem;
+}
